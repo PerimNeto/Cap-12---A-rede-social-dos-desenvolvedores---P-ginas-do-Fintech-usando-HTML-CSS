@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url(../images/gado-e-tecnologia-Atxyuw_918x474.png);
+    background-size: cover;
+  }
+
+.acessar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a {
+        width: 100%;
+        text-align: center;
+    }
+
+    i{
+        margin: 10px;
+    }
+
+    .fa-facebook{
+        background-color: white;
+        border-radius: 20px;
+    }
+}
+
+  .login-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    ::placeholder{
+        color: white;
+    };
+    ::-ms-input-placeholder{
+        color: white;
+    };
+
+    input:focus-visible{
+        outline: none;
+    }
+  }
+  .login-container h2 {
+    text-align:left;
+    color: rgba(251, 188, 66, 1);
+    margin-bottom: 50px;
+  }
+  .login-container input[type="text"],
+  .login-container input[type="password"],
+  .login-container input[type="submit"] {
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid rgba(90, 202, 233, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  a{
+    text-decoration: none;
+    color: rgba(90, 202, 233, 1);
+  }
+  .login-container input[type="submit"] {
+    background-color: rgba(251, 188, 66, 1);
+    color: black;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+  .login-container input[type="submit"]:hover {
+    background-color: rgba(251, 188, 66, 1);
+  }
+  .login-container form{
+    input[type="submit"]{
+        width: 120px;
+    };
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .link{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+  }
+  
